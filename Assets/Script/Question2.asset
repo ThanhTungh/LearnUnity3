@@ -17,3 +17,9 @@ MonoBehaviour:
     =
 
     bbb?'
+  answers:
+  - cc
+  - aa
+  - dd
+  - ee
+  correctAnswerIndex: 2

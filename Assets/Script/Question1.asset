@@ -22,3 +22,9 @@ MonoBehaviour:
 
 
 '
+  answers:
+  - tung
+  - tung2
+  - tung3
+  - tung4
+  correctAnswerIndex: 0

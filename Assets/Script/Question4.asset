@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question4
   m_EditorClassIdentifier: 
   question: bb+bb-2bb = ?
+  answers:
+  - 0
+  - 1
+  - 2
+  - 3
+  correctAnswerIndex: 0
