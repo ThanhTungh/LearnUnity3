@@ -730,6 +730,7 @@ MonoBehaviour:
   - {fileID: 54401859}
   DefaultAnswer: {fileID: 21300000, guid: 36301331d6de3ca4c8f5286952769bfe, type: 3}
   CorrectAnswer: {fileID: 21300000, guid: 0463e998b480404468ac275df15804cb, type: 3}
+  timerImage: {fileID: 61301178}
 --- !u!1 &319649609 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1250369453590480980, guid: 3c411c9bb6cbe0c4ca5c73310e1031e0, type: 3}
@@ -1496,7 +1497,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeRemaining: 10
   timeToShowAnswer: 5
+  loadNextQuestion: 0
   isAnsweringQuestion: 0
+  fillTime: 0
 --- !u!4 &1985455212
 Transform:
   m_ObjectHideFlags: 0
