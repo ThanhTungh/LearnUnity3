@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     [SerializeField] float timeToShowAnswer = 5f;
     public bool loadNextQuestion;
     public bool isAnsweringQuestion = false;
-    public float fillTime;    
+    public float fillTime;
     float timeValue;
     void Update()
     {
@@ -32,11 +32,11 @@ public class Timer : MonoBehaviour
                 isAnsweringQuestion = false;
                 timeValue = timeToShowAnswer;
             }
-            
+
         }
         else
         {
-            
+
             if(timeValue > 0)
             {
                 fillTime = timeValue / timeToShowAnswer;
@@ -50,4 +50,5 @@ public class Timer : MonoBehaviour
         }
         Debug.Log(timeValue);
     }
+
 }
